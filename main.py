@@ -37,7 +37,7 @@ def infgame(button):
     ab.set_program_name("rock-paper-scissors")
     ab.set_comments("some cool game :D\nthe game was made in 2024\ni say hello from Russia!")
     ab.set_authors(["Igor360"])
-    ab.set_website("https://github.com/pyminigames/rock-paper-scissors")
+    ab.set_website("https://github.com/lgor360/rock-paper-scissors")
     ab.set_license(license)
     ic = GdkPixbuf.Pixbuf.new_from_file(os.path.join(current_dir, "data/icon.png"))
     icon = ic.scale_simple(150, 150, GdkPixbuf.InterpType.BILINEAR)
